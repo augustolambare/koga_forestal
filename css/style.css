@@ -8,3 +8,20 @@ html {
     font-size: 62.5%;
 }
 
+header {
+    width: 100%;
+    height: auto;
+}
+.header_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    height: 140px;
+}
+.header_navbar-logo {
+    height: 68px;
+}
+.header_navbar-options {
+    height: 36px;
+}
