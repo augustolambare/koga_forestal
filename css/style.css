@@ -25,3 +25,559 @@ header {
 .header_navbar-options {
     height: 36px;
 }
+.header_navbar ul {
+    display: none;
+}
+
+.cover {
+    width: 100%;
+    height: 60vmax;
+    display: grid;
+    place-items: center;
+    background-image: url(../assets/fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cover div {
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cover .logo-white-verdecito {
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+}
+.cover .juntos-en-el-avance {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+}
+.koga-infra img {
+    width: 100%;
+    height: 60vh;
+    object-fit: contain;
+}
+.about-us {
+    margin: 0px 20px 20px 20px;
+}
+.about-us h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+}
+.about-us h3 {
+    font-size: 22px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.about-us p {
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 300;
+}
+.koga-agro-business 
+{
+    height: auto;
+    width: 100%;
+    background-image: url(../assets/pollitos.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.koga-agro-business_logo {
+    width: 40%;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: auto;
+}
+.koga-agro-business p {
+    font-size: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-weight: 300;
+    padding: 20px 0;
+    text-align: left;
+}
+.social-icons {
+    height: 36px;
+    width: 36px;
+    margin: 10px;
+}
+.social-icons_div {
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+}
+.koga-forestal {
+    height: auto;
+    width: 100%;
+    background-image: url(../assets/fondo-forestal-tinified-tinified.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.koga-forestal_logo {
+    width: 40%;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: auto;
+}
+.koga-forestal p {
+    font-size: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-weight: 300;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.divider {
+    width: 100px;
+    height: auto;
+    border-top: 3px solid #000000;
+    margin: 30px auto 20px auto;
+}
+.por-que-elegirnos h2 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 100px;
+}
+.por-que-elegirnos_container .div-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.por-que-elegirnos_container div img {
+    width: 298px;
+    height: 222px;
+}
+.por-que-elegirnos_container div h4 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 20px;
+}
+.por-que-elegirnos_container div p {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0 10px 20px 10px;
+    text-align: center;
+}
+
+.nuestros-servicios {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background-image: url(../assets/verde-fondo-Forestal-tinified-tinified.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.nuestros-servicios h2 {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: auto;
+}
+.divider-2 {
+    width: 130px;
+    height: auto;
+    border-top: 3px solid #ffffff;
+    margin: 30px auto 20px auto;
+}
+.nuestros-servicios ul {
+    margin-left: 20px;
+}
+.nuestros-servicios ul li {
+    font-size: 24px;
+    padding: 10px;
+    color: #ffffff;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nuestros-servicios ul li div {
+    width: 1px;
+    height: 1px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 10px;
+}
+.nuestros-servicios .bottom-margin {
+    margin-bottom: auto;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.galeria h3 {
+    font-size: 60px;
+    margin: 10px 0 20px 0;
+}
+.galeria .arrow-down {
+    width: 32px;
+    margin-bottom: 70px;
+}
+.galeria-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.galeria-img-container img {
+    width: 100%;
+    max-width: 400px;
+    height: 40vmax;
+    object-fit: cover;
+    padding: 2px 7px;
+}
+
+.envio {
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/fondo-Forestal-verde-tinified.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    position: relative;
+    padding: 60px 0;
+}
+.envio .mapa {
+    width: 100%;
+}
+.envio div {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.envio h3 {
+    font-size: 56px;
+    text-align: center;
+    color: #ffffff;
+}
+.envio .contact-button {
+    background-color: #ffffff;
+    border: none;
+    padding: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.envio .camion {
+    display: none;
+}
+
+.novedades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.novedades h3 {
+    font-size: 40px;
+    text-align: center;
+}
+.novedades .arrow-down {
+    width: 32px;
+    margin-bottom: 30px;
+}
+.articles-container {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+.articles-container article {
+    display: flex;
+    flex-direction: column;
+}
+.articles-container article img {
+    width: 100%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    height: 30vmax;
+}
+.articles-container article h5 {
+    font-size: 18px;
+    color: #555555
+}
+.articles-container article span {
+    font-size: 12px;
+    color: #999999;
+    padding-bottom: 10px;
+}
+.articles-container article .lpm2 {
+    font-size: 14px;
+    color: #777777;
+    font-weight: 300;
+}
+.articles-container article .lpm3 {
+    color: #68b04d;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.contactanos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactanos .lpm33 {
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 0;
+}
+.contactanos .arrow-down {
+    width: 32px;
+    margin-bottom: 30px;
+}
+.encontranos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../assets/fondo-forestal-tinified-tinified.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.encontranos h2 {
+    font-size: 40px;
+    color: #ffffff;
+    margin: 10px 0;
+}
+.encontranos img {
+    width: 60px;
+    margin-bottom: 70px;
+}
+.encontranos .maps {
+    width: 100%;
+    height: 35vmax;
+    margin-bottom: 60px;
+}
+
+.consultas {
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.consultas h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #333333;
+    margin: 60px 0 20px 0;
+}
+.consultas p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+}
+.consultas input {
+    width: 100%;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.consultas .mensaje {
+    height: 100px;
+}
+.consultas button {
+    width: 80px;
+    height: 40px;
+    background-color: #68b04d;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.volver-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.volver-inicio div {
+    width: 32px;
+}
+.volver-inicio a .arrow-up {
+    width: 32px;
+}
+.volver-inicio span {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 1000px) {
+    .header_navbar {
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 120px;
+    }
+    .header_navbar-logo {
+        height: 80px;
+    }
+    .header_navbar .header_navbar-options{
+        display: none;
+    }
+    .header_navbar ul {
+        display: flex;
+    }
+    .header_navbar ul li {
+        font-size: 20px;
+        list-style: none;
+        padding: 10px;
+        font-weight: 300;
+    }
+    .header_navbar ul li a {
+        text-decoration: none;
+        color: #000000;
+    }
+    .header_navbar ul li a:hover {
+        color: #68b04d;
+    }
+    .cover {
+        height: 40vmax;
+    }
+    .cover div {
+        max-width: 700px;
+    }
+    .idk {
+        display: flex;
+        justify-content: space-around;
+    }
+    .about-us {
+        width: 30%;
+    }
+    .koga-forestal-agro {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .por-que-elegirnos_container {
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .nuestros-servicios {
+        height: auto;
+        padding: 100px 0;
+    }
+    .nuestros-servicios h2 {
+        margin: 0;
+        margin-top: auto;
+    }
+    .nuestros-servicios_container {
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+        margin-bottom: auto;
+    }
+    .galeria-img-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        justify-content: center;
+    }
+    .galeria-img-container img {
+        width: 33%;
+        height: 15vmax;
+        object-fit: cover;
+        padding: 4px 4px;
+    }
+    .galeria h3 {
+        margin-top: 70px;
+        margin-bottom: 0;
+    }
+    .galeria .arrow-down {
+        margin-bottom: 20px;
+    }
+    .envio {
+        display: flex;
+        justify-content: space-around;
+        position: static;
+        margin-top: 100px;
+    }
+    .envio .mapa {
+        display: none;
+    }
+    .envio div {
+        position: static;
+        width: auto;
+        background-image: url(../assets/Mpa.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .envio .camion {
+        display: block;
+        width: 60%;
+        max-width: 1000px;
+    }
+    .envio .contact-button {
+        width: auto;
+    }
+    .novedades {
+        max-width: 1200px;
+    }
+    .articles-container {
+        display: flex;
+        max-width: 1200px;
+    }
+    .articles-container article {
+        padding: 10px;
+    }
+    .articles-container article img {
+        height: 15vmax;
+    }
+    .consultas-inicio {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .consultas {
+        width: 100%;
+        max-width: 600px;
+        padding: 30px;
+    }
+    .volver-inicio div {
+        margin-top: 50px;
+    }
+}
